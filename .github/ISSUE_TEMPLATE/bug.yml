@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible integration defect
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal redacted reproduction
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety checklist
+      options:
+        - label: I removed secrets and private data.
+          required: true
+        - label: This concerns an authorized workflow.
+          required: true

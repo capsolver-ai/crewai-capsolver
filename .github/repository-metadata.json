@@ -1,0 +1,20 @@
+{
+  "name": "crewai-capsolver",
+  "owner": "capsolver-ai",
+  "description": "Official CapSolver tools for CrewAI agents, crews, and flows \u2014 add CAPTCHA recovery to autonomous workflows.",
+  "homepage": "https://docs.capsolver.com/en/guide/ai/capsolver-for-ai-agents/",
+  "topics": [
+    "capsolver",
+    "crewai",
+    "multi-agent",
+    "ai-agents",
+    "captcha",
+    "agent-tools",
+    "python",
+    "llm",
+    "automation",
+    "browser-automation"
+  ],
+  "visibility": "public",
+  "status": "publish-now"
+}

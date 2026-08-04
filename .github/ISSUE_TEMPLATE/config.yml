@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CapSolver documentation
+    url: https://docs.capsolver.com/
+    about: Read the product and API documentation first.
