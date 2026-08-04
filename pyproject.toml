@@ -18,6 +18,8 @@ dev = ["pytest>=8", "ruff>=0.4", "mypy>=1.10"]
 
 [project.urls]
 Documentation = "https://docs.capsolver.com/en/guide/ai/capsolver-for-ai-agents/"
+Repository = "https://github.com/capsolver-ai/crewai-capsolver"
+Issues = "https://github.com/capsolver-ai/crewai-capsolver/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/crewai_capsolver"]
