@@ -1,5 +1,5 @@
 # Examples
 
-Examples must be runnable and safe to share. Copy .env.example to .env, provide your own keys, and use only pages and accounts you are authorized to automate.
+`quickstart.py` defines CrewAI tools whose implementations delegate directly to `capsolver_agent.create_executor()`.
 
-Released adapters should provide minimal setup, token mode, browser recovery where applicable, and structured error handling.
+The CrewAI agent, task, and crew stay in the demo. Canonical CapSolver schemas and execution remain in the shared library.
